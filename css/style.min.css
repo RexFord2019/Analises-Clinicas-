@@ -1,0 +1,49 @@
+body{
+	background-image: url("../imagens/background.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+	
+}
+.principal{
+	width: absolute;
+	margin: auto;
+	margin-top: 10px;
+
+}
+.section{
+	width: absolute;
+	margin: auto;
+	margin-top: 10px;
+	font-family: Arial Black ;
+	
+}
+/*trabalhando menu*/
+ul {
+  margin-top:25px;
+  list-style-type: none;
+  margin: 2px !important;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c4c4a1; /*cor do bacground do menu*/
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
